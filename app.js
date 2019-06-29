@@ -16,3 +16,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/berita', beritaRoute);
 app.use('/kategori', kategoriRoute);
+app.use('/account_operator', account_operatorRoute);
